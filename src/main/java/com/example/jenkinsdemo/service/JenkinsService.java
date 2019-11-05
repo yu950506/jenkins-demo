@@ -18,6 +18,6 @@ public class JenkinsService {
 
     @GetMapping("/demo3")
     public String demo3(){
-        return "Hello Jenkins 3 !!!";
+        return "Hello Jenkins 3 test update !!!";
     }
 }
