@@ -11,4 +11,8 @@ public class JenkinsService {
         return "Hello Jenkins";
     }
 
+    @GetMapping("/demo2")
+    public String demo2() {
+        return "Hello Jenkins 2 !!!";
+    }
 }
