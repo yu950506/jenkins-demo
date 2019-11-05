@@ -38,4 +38,8 @@ public class JenkinsService {
     public String demo7(){
         return "Hello Jenkins 7 test update !!!";
     }
+    @GetMapping("/demo8")
+    public String demo8(){
+        return "Hello Jenkins 8 test update !!!";
+    }
 }
